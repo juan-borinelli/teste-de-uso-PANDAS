@@ -42,6 +42,3 @@ df[df > 0] #forma de filtrar dados em um dataframe
 df.loc['B'] > 0 #forma de filtrar dados por linha
 df['TRES'] > 0 #forma de filtrar dados por coluna
 df[df['TRES'] > 0] #forma de filtrar dados semelhantes por coluna (mantem somente as linhas em que os valores da coluna TRES sao maiores que 0)
-
-
-
