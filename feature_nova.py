@@ -1,2 +1,1 @@
-print('nova feature adicionada')
-print('conflito gerado aqui!')
+print("testando conflito")
