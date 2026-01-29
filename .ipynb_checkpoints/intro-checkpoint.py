@@ -42,12 +42,3 @@ df[df > 0] #forma de filtrar dados em um dataframe
 df.loc['B'] > 0 #forma de filtrar dados por linha
 df['TRES'] > 0 #forma de filtrar dados por coluna
 df[df['TRES'] > 0] #forma de filtrar dados semelhantes por coluna (mantem somente as linhas em que os valores da coluna TRES sao maiores que 0)
-df.reset_index() #altera somente de forma temporaria durante a chamada (retorna um dataframe)
-df #constatação da afirmação acima
-df.reset_index(inplace=True) #mantem alteração de forma permanente (não retorna nada)
-df.set_index("index", inplace=True)
-df
-novoind = 'CA NY WY OR CO'.split()
-df['novo_index'] = novoind
-df.reset_index().set_index('novo_index')
-df
