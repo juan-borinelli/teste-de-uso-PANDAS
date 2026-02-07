@@ -25,3 +25,5 @@ df['A'].fillna(value=df['A'].mean()) #preenchimento de NANs com media para nao p
 
 df.ffill() #realiza preenchimento com base nas amostragens passadas, preenchendo com o ultimo valor observavel
 #ideal para series em que o indice se trata de tempo
+
+df.bfill() #semelhante ao ffill, mas preenchendo com dados anteriores
